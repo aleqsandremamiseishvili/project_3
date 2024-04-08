@@ -1,0 +1,285 @@
+
+/* global classes */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hor_align_space_between {
+    justify-content: space-between;
+}
+
+.ver_align_center {
+    align-items: center;
+}
+
+
+.blue_btn {
+    background-color: #7279FF;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+/* END: global classes */
+
+
+body {
+    background-color: #F8F8FC;
+}
+
+body, a {
+    color: #202631;
+    font-size: 16px;
+}
+
+#logo {
+    width: 40px;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: FiraGO-ExtraBold;
+    margin-left: 10px;
+}
+
+header a {
+    font-family: FiraGO-Medium;
+}
+
+
+#login_btn {
+    margin-right: 10px;  
+}
+
+#login_btn i {
+    color: #E5E3F0;
+    margin-right: 2px;
+}
+
+#search_btn {
+    background-color: #F1F2F4;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+
+header ul {
+    margin-right: 30px;
+    gap: 30px;
+}
+
+.section_txt { top: 346px;
+    left: 141px;
+    width: 350px;
+    height: 132px;
+    text-align: left;
+    font: normal normal bold 55px/66px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 1;
+    
+
+}
+
+.section_txt2 {
+    top: 512px;
+    left: 141px;
+    width: 526px;
+    height: 43px;
+    text-align: left;
+    font: normal normal normal 16px/24px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 0.6;
+}
+
+#register_btn {
+left: 141px;
+width: 190px;
+height: 80px;
+box-shadow: 0px 0px 30px #2026310D;
+border-radius: 16px;
+opacity: 1;
+    background-color: white;
+    color: black;
+    font-family: FiraGO-ExtraBold;
+    margin-left: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+#register_btn2{
+    top: 644px;
+left: 361px;
+width: 190px;
+height: 80px;
+box-shadow: 0px 0px 30px #2026310D;
+border-radius: 16px;
+opacity: 1;
+    background-color: white;
+    color: black;
+    font-family: FiraGO-ExtraBold;
+    margin-left: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.section_img {
+   width: 200px;
+   height: 400px;
+}
+
+.div_1 {
+    /* margin-top: -3%; */
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+/*  media tags */
+
+
+
+/*  mobile ---  320 - 768    */
+@media screen and (min-width:320px) {
+
+     header {
+        box-shadow: 0px 0px 30px #2026310D;
+        padding: 20px 15px;
+     }
+
+     header h1, header nav {
+        display: none;
+    }
+
+    .section_img {
+    top: 518px;
+left: 15px;
+width: 290px;
+height: 266px;
+
+background: transparent url('img/01 მთავარი გვერდის ილუსტრაცია.png') 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
+   
+ }
+
+ .section_txt {
+    font-size: 46px;
+ }
+
+ .section_txt2 {
+    top: 179px;
+    left: 15px;
+    width: 290px;
+    height: 91px;
+    text-align: left;
+    font: normal normal normal 16px/24px FiraGO;
+    letter-spacing: 0px;
+    color: #202631;
+    opacity: 0.6;
+ }
+
+
+
+}
+
+
+
+/*  tablet  ---  768 - 1200    */
+@media screen and (min-width:768px) {
+
+    header {
+        width: 94%;
+        margin: auto;
+        border-radius: 16px;
+        margin-top: 24px;
+        padding: 20px 30px;
+    }
+
+    header h1 {
+        display: block;
+    }
+
+    .section_img {
+        width: 80%;
+        margin-left: 10%;
+     }
+
+     .section_txt2 {
+        top: 285px;
+left: 51px;
+width: 395px;
+height: 67px;
+text-align: left;
+font: normal normal normal 16px/24px FiraGO;
+letter-spacing: 0px;
+color: #202631;
+opacity: 0.6;
+     }
+
+     .section_img {
+        top: 557px;
+left: 167px;
+width: 434px;
+height: 398px;
+border-radius: 30px;
+opacity: 1;
+     }
+
+}
+
+
+
+/*  notebook/PCs  ---  1200+   */
+@media screen and (min-width:1200px) {
+   
+    header {
+        width: 90%;
+    }
+
+    header nav {
+        display: block;
+     }
+
+     .section_img {
+        top: 171px;
+        left: 797px;
+        width: 465px;
+        height: 427px;
+       margin-left: 60%;
+       margin-top: -15%;
+     }
+
+     h1 {
+        margin-left: 6%;
+     }
+
+     p { margin-left: 6%;
+
+     }
+
+
+
+   
+
+     
+}
